@@ -1,0 +1,30 @@
+{
+  "name": "imagescanning",
+  "version": "1.0.0",
+  "description": "The purpose of this project is to extract important information from reciepts to provide easy means of getting user input.",
+  "main": "serve.js",
+  "scripts": {
+    "start": "nodemon serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinfinity/ImageScanning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinfinity/ImageScanning/issues"
+  },
+  "homepage": "https://github.com/kinfinity/ImageScanning#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "throng": "^5.0.0",
+    "winston": "^3.3.3"
+  }
+}
