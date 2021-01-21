@@ -45,11 +45,9 @@ const wrapper = {
 //       res.json({ csrfToken: _token})
 // })
 
-app.get("/viewHEADERS",function(req, res) {// For Debugging
-      winstonLogger.info("REQUEST_HEADERS:" +JSON.stringify(req.headers,null,4))
+app.get("/",function(req, res) {// For Debugging
       res.json({ 
-            headers: req.headers,
-            body: req.body
+            Status: "Server UP!"
         })
 })
 
